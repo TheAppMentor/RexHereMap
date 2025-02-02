@@ -8,8 +8,8 @@
 import Foundation
 
 @objcMembers
-public class RexHereMapBridge : NSObject {
-   
+@objc public class RexHereMapBridge: NSObject {
+
     @objc
     public override init () {
         print("RexHereMapBridge initialized : Inside Pod")
