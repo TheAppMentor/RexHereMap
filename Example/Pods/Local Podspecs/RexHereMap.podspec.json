@@ -1,0 +1,22 @@
+{
+  "name": "RexHereMap",
+  "version": "0.1.0",
+  "summary": "A short description of RexHereMap.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TheAppMentor/RexHereMap",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TheAppMentor": "prashanth.moorthy@sap.com"
+  },
+  "source": {
+    "git": "https://github.com/TheAppMentor/RexHereMap.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RexHereMap/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - RexHereMap (0.1.0)
+
+DEPENDENCIES:
+  - RexHereMap (from `../`)
+
+EXTERNAL SOURCES:
+  RexHereMap:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RexHereMap: 232d64e1b0cc39ac2d67ff1f1232f2907caf1c05
+
+PODFILE CHECKSUM: 17860267659f8b034ee0679077e2bfde5b079dab
+
+COCOAPODS: 1.16.2
