@@ -11,7 +11,7 @@ import Foundation
 public class RexHereMapBridge : NSObject {
    
     @objc
-    public init () {
+    public override init () {
         print("RexHereMapBridge initialized : Inside Pod")
     }
     
