@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07C7A262CF1FC9CCEE3E6DCBD276962B /* Pods-RexHereMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D40B4A4FD1393FD7C3FEBFE75F29CD /* Pods-RexHereMap_Example-dummy.m */; };
+		2F094B622D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */; };
+		2F094B632D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */; };
 		3F277CEF3788810BEA3CB5B6FD7015BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		5BD9A7348E43DE74F14B87B1EDD716DB /* Pods-RexHereMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1826ABB8CEC54BD4356804FB8ED763F3 /* Pods-RexHereMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63CCB75A974FDA8EE7E1DB88AB2440BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
@@ -41,6 +43,7 @@
 		1826ABB8CEC54BD4356804FB8ED763F3 /* Pods-RexHereMap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RexHereMap_Example-umbrella.h"; sourceTree = "<group>"; };
 		27ABB043CDE698C23CAE782CCDF60BA9 /* RexHereMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RexHereMap-dummy.m"; sourceTree = "<group>"; };
 		2A023E707947E542973902E32DC4A264 /* Pods-RexHereMap_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RexHereMap_Example-Info.plist"; sourceTree = "<group>"; };
+		2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexHereMapBridge.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A3E8FD89980D4D489B2F8428CB0E6C7 /* RexHereMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RexHereMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		53D40B4A4FD1393FD7C3FEBFE75F29CD /* Pods-RexHereMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RexHereMap_Example-dummy.m"; sourceTree = "<group>"; };
@@ -142,6 +145,7 @@
 		72AAE876560D423FC9C41C338CCC10E0 /* RexHereMap */ = {
 			isa = PBXGroup;
 			children = (
+				2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */,
 				2F094B642D4FBD1A00B4D79D /* Classes */,
 				382F92FA0A8157C3F1A68E4588E7C280 /* Pod */,
 				96DC7F59F978696E398243F177EF2560 /* Support Files */,
@@ -389,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				961B0010856AE1B671B67CFF746E5888 /* RexHereMap-dummy.m in Sources */,
+				2F094B622D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C7A262CF1FC9CCEE3E6DCBD276962B /* Pods-RexHereMap_Example-dummy.m in Sources */,
+				2F094B632D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

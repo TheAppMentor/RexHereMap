@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RexHereMap/Classes/**/*'
+  s.source_files = 'RexHereMap/**/*'
   
   # s.resource_bundles = {
   #   'RexHereMap' => ['RexHereMap/Assets/*.png']
