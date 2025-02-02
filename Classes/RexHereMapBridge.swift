@@ -9,11 +9,13 @@ import Foundation
 
 @objcMembers
 public class RexHereMapBridge {
-    
+   
+    @objc
     public init () {
         print("RexHereMapBridge initialized : Inside Pod")
     }
     
+    @objc
     public static func sayHello() -> String {
         return "Hello from RexHereMapBridge : Inside Pod"
     }

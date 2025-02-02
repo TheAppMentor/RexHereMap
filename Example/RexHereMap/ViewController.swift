@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let bridge = RexHereMapBridge()
-        let retVal = bridge.sayHello()
+        let retVal = RexHereMapBridge.sayHello()
         print(retVal)
     }
 
