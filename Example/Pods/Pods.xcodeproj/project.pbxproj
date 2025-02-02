@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07C7A262CF1FC9CCEE3E6DCBD276962B /* Pods-RexHereMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D40B4A4FD1393FD7C3FEBFE75F29CD /* Pods-RexHereMap_Example-dummy.m */; };
-		2F094B622D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */; };
-		2F094B632D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */; };
 		3F277CEF3788810BEA3CB5B6FD7015BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		5BD9A7348E43DE74F14B87B1EDD716DB /* Pods-RexHereMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1826ABB8CEC54BD4356804FB8ED763F3 /* Pods-RexHereMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63CCB75A974FDA8EE7E1DB88AB2440BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
@@ -43,7 +41,6 @@
 		1826ABB8CEC54BD4356804FB8ED763F3 /* Pods-RexHereMap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RexHereMap_Example-umbrella.h"; sourceTree = "<group>"; };
 		27ABB043CDE698C23CAE782CCDF60BA9 /* RexHereMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RexHereMap-dummy.m"; sourceTree = "<group>"; };
 		2A023E707947E542973902E32DC4A264 /* Pods-RexHereMap_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RexHereMap_Example-Info.plist"; sourceTree = "<group>"; };
-		2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexHereMapBridge.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A3E8FD89980D4D489B2F8428CB0E6C7 /* RexHereMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RexHereMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		53D40B4A4FD1393FD7C3FEBFE75F29CD /* Pods-RexHereMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RexHereMap_Example-dummy.m"; sourceTree = "<group>"; };
@@ -72,6 +69,10 @@
 		E9B467CE5972DA6FCDD3CAB113D41E72 /* RexHereMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RexHereMap-umbrella.h"; sourceTree = "<group>"; };
 		F3AFAA8B883D884B2EE9F5C665167377 /* RexHereMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RexHereMap-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2F094B642D4FBD1A00B4D79D /* Classes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Classes; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2F4D09DE3AC65435268A90A14DE0A0C3 /* Frameworks */ = {
@@ -141,7 +142,7 @@
 		72AAE876560D423FC9C41C338CCC10E0 /* RexHereMap */ = {
 			isa = PBXGroup;
 			children = (
-				2F094B612D4F9B8B00B4D79D /* RexHereMapBridge.swift */,
+				2F094B642D4FBD1A00B4D79D /* Classes */,
 				382F92FA0A8157C3F1A68E4588E7C280 /* Pod */,
 				96DC7F59F978696E398243F177EF2560 /* Support Files */,
 			);
@@ -268,6 +269,9 @@
 			dependencies = (
 				C326529C15BD1B12A1AB8FFDE8C687FC /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				2F094B642D4FBD1A00B4D79D /* Classes */,
+			);
 			name = "Pods-RexHereMap_Example";
 			productName = Pods_RexHereMap_Example;
 			productReference = E5E7B9854C05690B8DB5B8EF5831EFFA /* Pods_RexHereMap_Example.framework */;
@@ -285,6 +289,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2F094B642D4FBD1A00B4D79D /* Classes */,
 			);
 			name = RexHereMap;
 			productName = RexHereMap;
@@ -382,7 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				961B0010856AE1B671B67CFF746E5888 /* RexHereMap-dummy.m in Sources */,
-				2F094B622D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C7A262CF1FC9CCEE3E6DCBD276962B /* Pods-RexHereMap_Example-dummy.m in Sources */,
-				2F094B632D4F9B8B00B4D79D /* RexHereMapBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +438,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RexHereMap_Example/Pods-RexHereMap_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RexHereMap_Example/Pods-RexHereMap_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -471,7 +480,11 @@
 				INFOPLIST_FILE = "Target Support Files/RexHereMap/RexHereMap-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RexHereMap/RexHereMap.modulemap";
 				PRODUCT_MODULE_NAME = RexHereMap;
 				PRODUCT_NAME = RexHereMap;
@@ -541,7 +554,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -566,7 +580,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RexHereMap_Tests/Pods-RexHereMap_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RexHereMap_Tests/Pods-RexHereMap_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -601,7 +619,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RexHereMap_Tests/Pods-RexHereMap_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RexHereMap_Tests/Pods-RexHereMap_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -638,7 +660,11 @@
 				INFOPLIST_FILE = "Target Support Files/RexHereMap/RexHereMap-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RexHereMap/RexHereMap.modulemap";
 				PRODUCT_MODULE_NAME = RexHereMap;
 				PRODUCT_NAME = RexHereMap;
@@ -740,7 +766,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RexHereMap_Example/Pods-RexHereMap_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RexHereMap_Example/Pods-RexHereMap_Example.modulemap";
 				OTHER_LDFLAGS = "";

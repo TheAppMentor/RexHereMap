@@ -14,7 +14,7 @@ public class RexHereMapBridge {
         print("RexHereMapBridge initialized : Inside Pod")
     }
     
-    public func sayHello() -> String {
+    public static func sayHello() -> String {
         return "Hello from RexHereMapBridge : Inside Pod"
     }
 }
