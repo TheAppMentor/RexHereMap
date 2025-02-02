@@ -8,7 +8,7 @@
 import Foundation
 
 @objcMembers
-public class RexHereMapBridge {
+public class RexHereMapBridge : NSObject {
    
     @objc
     public init () {
